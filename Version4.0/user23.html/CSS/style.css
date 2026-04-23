@@ -35,3 +35,41 @@ table{
 h1, h2, h3, h4, h5, h6{
 	text-align:center;
 }
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+.button:hover {
+  color: red !important; /* This forces the text to turn red */
+  background-color: red !important; /* This forces the box to turn red */
+  opacity: 0.8;
+  cursor: pointer;
+  transform: scale(1.05);
+}
+.title {
+  color: red;
+  font-family: 'Trebuchet MS', sans-serif; 
+}
+
+.title-large {
+  font-size: 2rem;
+}
+.title-small {
+  font-size: .5rem;
+}
+#morecontent {
+  background-color: yellow;
+}
+
+#hireButtons {
+  border: 2px solid red;
+}
+
+#footerTable {
+  background-color: lightgray;
+}
+
+* {
+  box-sizing: border-box;
+}
